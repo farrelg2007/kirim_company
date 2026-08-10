@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Company Profile</title>
+</head>
+
+<body>
+    <!-- 1. HEADER & NAVIGATION BAR -->
+    <header class="fixed top-0 left-0 w-full bg-slate-900 text-white z-50">
+        <div class="container mx-auto flex items-center justify-between px-6 py-4">
+
+            <!-- Logo Perusahaan -->
+            <a href="/" class="flex items-center">
+                <img src="logo.png" alt="Gojek Logo" class="h-8">
+            </a>
+
+            <!-- Navigasi Utama -->
+            <nav aria-label="Main Navigation">
+                <ul class="flex items-center gap-6 font-medium text-sm">
+                    <li><a href="#" class="hover:text-green-400">Beranda</a></li>
+
+                    <!-- Menu Dropdown -->
+                    <li class="relative group">
+                        <button class="flex items-center gap-1 hover:text-green-400">
+                            Gabung jadi Mitra
+                            <!-- Icon Chevron Down -->
+                        </button>
+                    </li>
+
+                    <li><a href="#" class="hover:text-green-400">Karir</a></li>
+                    <li><a href="#" class="hover:text-green-400">Perusahaan</a></li>
+                    <li><a href="#" class="hover:text-green-400">Produk</a></li>
+                    <li><a href="#" class="hover:text-green-400">Blog</a></li>
+                    <li><a href="#" class="hover:text-green-400">Bantuan</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- 2. MAIN CONTENT -->
+    <main class="relative pt-16">
+
+        <!-- HERO SECTION -->
+        <section class="relative h-screen flex items-center justify-start bg-cover bg-center overflow-hidden"
+            style="background-image: url('hero-bg.jpg');">
+
+            <!-- Dark Overlay agar teks terbaca jelas -->
+            <div class="absolute inset-0 bg-black/40"></div>
+
+            <!-- Konten Teks Hero (H1 penting untuk SEO) -->
+            <div class="container mx-auto px-6 z-10 text-white max-w-3xl">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">
+                    3 negara. 20+ layanan. 1 platform on-demand terkemuka.
+                </h1>
+            </div>
+
+        </section>
+
+        <!-- Section berikutnya (Layanan, Tentang Kami, dll) tinggal menyusul di sini -->
+
+    </main>
+</body>
+
+</html>
