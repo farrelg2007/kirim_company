@@ -5,7 +5,7 @@ KIRIM adalah perusahaan logistik yang menyediakan layanan pengiriman barang cepa
 Perusahaan ini fokus pada solusi on-demand untuk kebutuhan kiriman bisnis dan perorangan.
 
 ## Framework yang Digunakan dalam Proyek ini
-- **CodeIgniter 4** sebagai framework utama
+- **CodeIgniter 4** sebagai framework website
 - **Tailwind CSS** sebagai framework CSS
 
 ## Change Log
